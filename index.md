@@ -6,7 +6,7 @@ This site contains the course materials for **MSE152**, including lectures, labs
 - [Syllabus](./syllabus.md)
 
 ## Lectures
-- [Git and Versioning](./lectures/git-and-versioning/01-introduction.md)
+- [Git and Versioning](./lectures/git-and-versioning.html)
 - [Build Systems](./lectures/build-systems.md)
 - [C Programming Review](./lectures/c-programming-review.md)
 - [Unit and Integration Testing](./lectures/unit-integration-testing.md)
