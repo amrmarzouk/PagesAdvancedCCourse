@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Git and Versioning</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+    <link rel="stylesheet" href="./git-and-versioning/styles.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Include each section manually -->
+            <section data-include="./git-and-versioning/01-introduction.html"></section>
+            <section data-include="./git-and-versioning/02-setting-up-git.html"></section>
+            <section data-include="./git-and-versioning/03-branching-merging.html"></section>
+            <section data-include="./git-and-versioning/04-git-commands.html"></section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize();
+
+        // Fetch external files and include them dynamically
+        document.querySelectorAll('section[data-include]').forEach(section => {
+            const file = section.getAttribute('data-include');
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    section.innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching section:', error));
+        });
+    </script>
+</body>
+</html>
