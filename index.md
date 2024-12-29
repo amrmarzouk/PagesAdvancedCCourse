@@ -6,6 +6,7 @@ This site contains the course materials for **MSE152**, including lectures, labs
 - [Syllabus](./syllabus.md)
 
 ## Lectures
+- [Linux Introduction](./output/Linux-Intro/index.html)
 - [Git and Versioning](./output/git-and-versioning/index.html)
 - [Build Systems](./output/build-systems/index.html)
 - [C Programming Review](./output/c-programming-review/index.html)

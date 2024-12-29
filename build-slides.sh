@@ -11,6 +11,7 @@ echo "Starting slide build process..."
 
 # List of slides to compile
 slides=(
+    "Linux-Intro/Linux-Intro.md"
     "git-and-versioning/git-and-versioning.md"
     "build-systems/build-systems.md"
     "c-programming-review.md"
