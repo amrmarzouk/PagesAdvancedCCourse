@@ -7,7 +7,7 @@ This site contains the course materials for **MSE152**, including lectures, labs
 
 ## Lectures
 - [Git and Versioning](./output/git-and-versioning/index.html)
-- [Build Systems](output/build-systems/index.html)
+- [Build Systems](./output/build-systems/index.html)
 - [C Programming Review](./output/c-programming-review/index.html)
 - [Unit and Integration Testing](./output/unit-integration-testing/index.html)
 - [Pointers in C - Part 1](./output/pointers-part1/index.html)
