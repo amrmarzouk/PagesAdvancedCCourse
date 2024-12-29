@@ -1,6 +1,5 @@
-
 ---
-# title: "Build Systems - GCC, Make, CMake"
+# Build Systems - GCC, Make, CMake
 revealOptions:
   title: "Build Systems - GCC, Make, CMake"
   width: 1400
@@ -14,7 +13,7 @@ revealOptions:
 ---
 
 # Build Systems - GCC, Make, CMake
-### Week 2: Moving from Single-File to Multi-File Projects
+### Moving from Single-File to Multi-File Projects
 
 ---
 
