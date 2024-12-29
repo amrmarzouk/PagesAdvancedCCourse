@@ -11,4 +11,5 @@ include:
   - assets/js
   - lectures
   - labs
+  - output
   - resources
